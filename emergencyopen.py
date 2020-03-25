@@ -16,8 +16,12 @@ GPIO.setup(motorpin2, GPIO.OUT)
 print("Opening DeadBolt")
 GPIO.output(motorpin1, 0)
 GPIO.output(motorpin2, 1)
-time.sleep(1)
+time.sleep(0.2)
 
+#motor stop
+GPIO.output(motorpin1, 0)
+GPIO.output(motorpin2, 0)
 #end of program exit
-print("end of program")
+
+
 
