@@ -13,12 +13,12 @@ GPIO.setup(motorpin1, GPIO.OUT)
 GPIO.setup(motorpin2, GPIO.OUT)
 
 #testing
-print("Opening DeadBolt")
-GPIO.output(motorpin1, 1)
-GPIO.output(motorpin2, 0)
+print("Closing DeadBolt")
+GPIO.output(motorpin1, 0)
+GPIO.output(motorpin2, 1)
 time.sleep(1)
 
 #end of program exit
-print("end of program")
+
 
 
