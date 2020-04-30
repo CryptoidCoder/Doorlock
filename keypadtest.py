@@ -1,3 +1,5 @@
+#waits for an input from the keypad then prints what has been pressed
+
 import time
 import RPi.GPIO as GPIO
 from keypad import keypad
