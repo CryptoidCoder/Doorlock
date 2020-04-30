@@ -25,9 +25,10 @@ C4 = 21
 # being held down or -1 if no key is pressed
 keypadPressed = -1
 
-secretCode = "1234"
-#resetcode = "9999"
-#endcode = "0123456789"
+secretCode = "1234" #code to enter
+
+#resetcode = "9999" #code to reset the secretCode (need to make this work)
+#endcode = "0123456789" #code to exit the program (need to make this work)
 
 input = ""
 
