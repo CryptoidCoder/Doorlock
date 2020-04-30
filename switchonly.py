@@ -1,3 +1,5 @@
+#Only use the Buttons to open the door
+
 
 import RPi.GPIO as GPIO # Import Raspberry Pi GPIO library
 import time
